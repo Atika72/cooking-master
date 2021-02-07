@@ -1,0 +1,19 @@
+#foods{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.food{
+    margin: 10px 20px;
+    padding: 20px;
+}
+.image{
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.food-name{
+    font-size: 20px;
+}
