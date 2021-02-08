@@ -9,17 +9,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
-        <div class="col-md-6 m-5 py-5 ">
-            <div class="search-box">
-                <input type="text" class="form-control"  placeholder="search meal">
-            
-                <div class="search-button">
-                    <button id="search-button" class="btn btn-danger">search</button>
+
+
+    <div class="container" id="search-area">
+            <form class="col-md-6 my-auto mx-auto py-5">
+                <div class="input-group mb-3">
+                    <input type="text" id="search-box" class="form-control" placeholder="Search Meal ...">
+                    <div class="input-group-append">
+                        <button onclick="searchFoods()" type="button" class="btn btn-danger" id="search-button">Search</button>
+                    </div>
                 </div>
-            </div>
+            </form>
         </div>
-    </div>
+        
+    </div>    
+
+    
     <div id="foods"></div>
 
     <script src="app.js"></script>
