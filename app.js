@@ -25,7 +25,7 @@ const displayFoods = foods => {
         divFoods.appendChild(divFood);
 
         
-const ingredientList = document.getElementById("showIngredients");
+    const ingredientList = document.getElementById("showIngredients");
         ingredientList.addEventListener("click", (){
             const showList = document.getElementById("ingredients");
         }) 
