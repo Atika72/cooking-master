@@ -23,12 +23,6 @@ const displayFoods = foods => {
         `
         divFood.innerHTML = foodInfo;
         divFoods.appendChild(divFood);
-
-        
-    const ingredientList = document.getElementById("showIngredients");
-        ingredientList.addEventListener("click", (){
-            const showList = document.getElementById("ingredients");
-        }) 
     }
     
        
