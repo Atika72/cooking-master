@@ -23,9 +23,7 @@ const displayFoods = foods => {
         `
         divFood.innerHTML = foodInfo;
         divFoods.appendChild(divFood);
-    }
-    
-       
+    }           
 )}
 
 
